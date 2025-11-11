@@ -1,0 +1,28 @@
+# Python related
+__pycache__/
+.venv/
+env/
+venv/
+*.py[cod]
+
+# macOS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Virtual environment
+/.venv/
+
+# Data and artifacts (optional - exclude large binary outputs)
+*.npy
+*.npz
+*.xlsx
+*.ckpt
+
+# Model / reports CSVs (if you prefer to exclude)
+model_performance_*.csv
+model_performance_report.xlsx
+
+# Ignore local IDE settings
+.vscode/
